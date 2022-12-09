@@ -1,0 +1,48 @@
+body {
+    background-color: blueviolet;
+}
+
+.navbar {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: #222222;
+
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color:#64a19d;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.navbar-brand img {
+    padding-right: 50px;
+    width: 130px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/*.nav-link, .nav-item {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.jumbotron {
+    background-image: url(../images/emoji-icon-glossy-00-00-person-person-woman-red-with-layered-cut-fitz-1-2-72dpi-forPersonalUseOnly.png);
+    background-repeat: no-repeat;
+    height: calc(77vh);
+
+}
+
+.display-4, .lead {
+    justify-content:flex-end;
+    margin-left: 65%;
+}
+
+.lead {
+    margin-top: 10%;
+}
+
