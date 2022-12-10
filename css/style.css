@@ -1,22 +1,33 @@
+:root {
+    --background-color: cadetblue;
+    --font: coral;
+  }
+
 body {
-    background-color: blueviolet;
+    background-color:rgb(161, 159, 255);
 }
 
-.navbar {
+
+#mainNav {
     font-size: 12px;
     padding: 8px 10px;
     color: #222222;
+    background-color: #222222;
 
     border-color: rgba(34, 34, 34, 0.05);
-    background-color:#64a19d;
+    background-color:violet;
     transition: all .35s;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
-}
+
+    background-color: #222222;
+   
+} 
 
 .navbar-brand img {
     padding-right: 50px;
+    margin-left: 0 !important;
     width: 130px;
 }
 
@@ -40,9 +51,67 @@ body {
 .display-4, .lead {
     justify-content:flex-end;
     margin-left: 65%;
+    
+}
+
+.display-4 {
+    color: var(--font);
 }
 
 .lead {
     margin-top: 10%;
+    color: cadetblue;
 }
 
+/* Cards */
+
+
+.sectionHeading {
+    text-align: center;
+    color: var(--font);
+  }
+
+  .cards {
+    padding: 30px 30px 30px 30px;
+    
+  }
+
+.cardContainer {
+    margin-top: 20px;
+   
+    text-align: center;
+  }
+
+  .card {
+    margin: 0 auto;
+    border-width: thick;
+    border-color: var(--font);
+  }
+  
+  .card-body {
+    background-color: var(--background-color);
+    
+  }
+
+  .card-title {
+    color: var(--font);
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  .myButtons {
+ color: var(--font);
+ border-color: var(--font);
+  }
+  
+
+  /*Cards*/
+
+footer {
+    background-color: #222222;
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    margin-top: 30px;
+}
+ 
