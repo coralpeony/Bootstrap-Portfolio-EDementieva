@@ -13,7 +13,7 @@ a:hover {
 
 /* Navigation bar */
 
-/* Code was taken from 02-STU-Custom-Webpage excercise */
+/* .customNav code is based on the 02-STU-Custom-Webpage exercise */
 .customNav {
   position: fixed;
   width: 100%;
@@ -22,14 +22,13 @@ a:hover {
   background-size: cover;
   z-index: 10;
 }
+
 .navbar-nav {
   margin-left: auto;
   margin-right: 0;
   /*display: flex;
   justify-content: space-evenly;*/
-
 }
-/*****/
 
 .navbar-brand img {
   padding-right: 15px;
@@ -39,7 +38,6 @@ a:hover {
 /* Navigation links */
 .customNav a {
   color: var(--font) !important;
-
 }
 
 
@@ -53,8 +51,6 @@ a:hover {
     background-image: url(../images/emoji-icon-glossy-00-00-person-person-woman-red-with-layered-cut-fitz-1-2-72dpi-forPersonalUseOnly.png);
     background-repeat: no-repeat;
     height: calc(77vh);
-    
-
 }
 
 .display-4, .lead {
@@ -74,7 +70,6 @@ a:hover {
 
 /* Cards */
 
-
 .sectionHeading {
   padding: 70px;
     text-align: center;
@@ -88,7 +83,6 @@ a:hover {
 
 .cardContainer {
     margin-top: 20px;
-   
     text-align: center;
   }
 
@@ -110,8 +104,8 @@ a:hover {
   }
 
   .myButtons {
- color: var(--font);
- border-color: var(--font);
+    color: var(--font);
+    border-color: var(--font);
   }
 
   /* Skills Section */
@@ -119,7 +113,6 @@ a:hover {
 .skills-section {
   padding: 100px 0;
   background: linear-gradient(rgba(179, 96, 96, 0.1) 0%, rgba(223, 80, 228, 0.5) 75%, #9c4343 100%), url("../images/ori_3735717_vigip4fpkjypq5lypufdqlif1gdvibuljhim30bu_watercolor-coral-peonies.PNG");
-  
   background-position: center;
  
 }
