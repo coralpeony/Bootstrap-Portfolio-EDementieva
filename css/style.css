@@ -11,6 +11,18 @@ a:hover {
   background-color: aquamarine;
 }
 
+
+
+.btn:hover {
+
+  box-shadow: 2px 5px 7px 5px  rgb(109, 196, 236) !important;
+}
+
+.buttonMove:hover {
+  box-shadow: 2px 5px 7px 5px  rgb(236, 109, 109) !important;
+
+}
+
 /* Navigation bar */
 
 /* .customNav code is based on the 02-STU-Custom-Webpage exercise */
@@ -129,24 +141,19 @@ a:hover {
 
 .buttonMove {
   margin-left: 100px;
- 
+  width: 250px;
+  align-content: center;margin-top: 5px;
 }
 
 .btn {
   color: var(--font);
   font-weight: bolder;
   background-color: rgb(248, 42, 111);
-  box-shadow: 2px 5px 7px 5px  rgb(109, 196, 236) !important;
+  
 }
 
-.buttonMove {
-  width: 250px;
-  align-content: center;
-  box-shadow: 2px 5px 7px 5px  rgb(236, 109, 109) !important;
 
-}
-
- .modal-header h3 {
+.modal-header h3 {
   font-size: xx-large;
   text-indent: 120px;
   color: var(--font);
