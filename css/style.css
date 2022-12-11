@@ -7,34 +7,42 @@ body {
     background-color:rgb(161, 159, 255);
 }
 
+a:hover {
+  background-color: aquamarine;
+}
 
-#mainNav {
-    font-size: 12px;
-    padding: 8px 10px;
-    color: #222222;
-    background-color: #222222;
+/* Navigation bar */
 
-    border-color: rgba(34, 34, 34, 0.05);
-    background-color:violet;
-    transition: all .35s;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
+/* Code was taken from 02-STU-Custom-Webpage excercise */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+  /*display: flex;
+  justify-content: space-evenly;*/
 
-    background-color: #222222;
-   
-} 
+}
+/*****/
 
 .navbar-brand img {
-    padding-right: 50px;
-    margin-left: 0 !important;
-    width: 130px;
+  padding-right: 15px;
+  width: 55px;
 }
 
-.navbar-nav {
-    margin-left: auto;
-    margin-right: 0;
+/* Navigation links */
+.customNav a {
+  color: var(--font) !important;
+
 }
+
+
 
 /*.nav-link, .nav-item {
     display: flex;
@@ -45,6 +53,7 @@ body {
     background-image: url(../images/emoji-icon-glossy-00-00-person-person-woman-red-with-layered-cut-fitz-1-2-72dpi-forPersonalUseOnly.png);
     background-repeat: no-repeat;
     height: calc(77vh);
+    
 
 }
 
@@ -67,12 +76,13 @@ body {
 
 
 .sectionHeading {
+  padding: 70px;
     text-align: center;
     color: var(--font);
   }
 
   .cards {
-    padding: 30px 30px 30px 30px;
+    padding: 5px 30px 30px 30px;
     
   }
 
@@ -103,9 +113,78 @@ body {
  color: var(--font);
  border-color: var(--font);
   }
+
+  /* Skills Section */
+
+.skills-section {
+  padding: 100px 0;
+  background: linear-gradient(rgba(179, 96, 96, 0.1) 0%, rgba(223, 80, 228, 0.5) 75%, #9c4343 100%), url("../images/ori_3735717_vigip4fpkjypq5lypufdqlif1gdvibuljhim30bu_watercolor-coral-peonies.PNG");
+  
+  background-position: center;
+ 
+}
+
+.text-black {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.text-center li {
+  font-size: large;
+  
+}
+
+.buttonMove {
+  margin-left: 100px;
+ 
+}
+
+.btn {
+  color: var(--font);
+  font-weight: bolder;
+  background-color: rgb(248, 42, 111);
+  box-shadow: 2px 5px 7px 5px  rgb(109, 196, 236) !important;
+}
+
+.buttonMove {
+  width: 250px;
+  align-content: center;
+  box-shadow: 2px 5px 7px 5px  rgb(236, 109, 109) !important;
+
+}
+
+ .modal-header h3 {
+  font-size: xx-large;
+  text-indent: 120px;
+  color: var(--font);
+}
+
+.modal-body {
+  color: var(--background-color);
+
+}
   
 
-  /*Cards*/
+  /* Contact */
+
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.50rem solid var(--font);
+    border-top: 0.50rem solid var(--font);
+    margin-top: 10px;
+    
+  }
+
+  .medium {
+    color: var(--font);
+    font-weight: bold;
+  }
+
+  .medium a{
+    color: var(--font);
+  }
+
+ 
 
 footer {
     background-color: #222222;
