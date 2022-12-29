@@ -1,26 +1,22 @@
 :root {
-    --background-color: cadetblue;
-    --font: coral;
-  }
+  --background-color: cadetblue;
+  --font: coral;
+}
 
 body {
-    background-color:rgb(161, 159, 255);
+  background-color: rgb(161, 159, 255);
 }
 
 a:hover {
   background-color: aquamarine;
 }
 
-
-
 .btn:hover {
-
-  box-shadow: 2px 5px 7px 5px  rgb(109, 196, 236) !important;
+  box-shadow: 2px 5px 7px 5px rgb(109, 196, 236) !important;
 }
 
 .buttonMove:hover {
-  box-shadow: 2px 5px 7px 5px  rgb(236, 109, 109) !important;
-
+  box-shadow: 2px 5px 7px 5px rgb(236, 109, 109) !important;
 }
 
 /* Navigation bar */
@@ -38,12 +34,13 @@ a:hover {
 .navbar-nav {
   margin-left: auto;
   margin-right: 0;
-  /*display: flex;
-  justify-content: space-evenly;*/
+  display: flex;
+  justify-content: space-evenly;
+  width: 50rem;
 }
 
 .navbar-brand img {
-  padding-right: 15px;
+  
   width: 55px;
 }
 
@@ -52,81 +49,90 @@ a:hover {
   color: var(--font) !important;
 }
 
-
-
 /*.nav-link, .nav-item {
     display: flex;
     justify-content: space-between;
 }*/
 
 .jumbotron {
-    background-image: url(../images/emoji-icon-glossy-00-00-person-person-woman-red-with-layered-cut-fitz-1-2-72dpi-forPersonalUseOnly.png);
-    background-repeat: no-repeat;
-    height: calc(77vh);
+  background-image: url(../images/emoji-icon-glossy-00-00-person-person-woman-red-with-layered-cut-fitz-1-2-72dpi-forPersonalUseOnly.png);
+  background-repeat: no-repeat;
+  height: calc(77vh);
 }
 
-.display-4, .lead {
-    justify-content:flex-end;
-    margin-left: 65%;
-    
-}
+/*.display-4,
+.lead {
+  justify-content: flex-end;
+  margin-left: 65%;
+}*/
 
 .display-4 {
-    color: var(--font);
+  color: var(--font);
+  justify-content: flex-end;
+  margin-left: 65%;
 }
 
 .lead {
-    margin-top: 10%;
-    color: cadetblue;
+  margin-top: 10%;
+  color: cadetblue;
+  width: 40%;
 }
 
 /* Cards */
 
 .sectionHeading {
   padding: 70px;
-    text-align: center;
-    color: var(--font);
-  }
+  text-align: center;
+  color: var(--font);
+}
 
-  .cards {
-    padding: 5px 30px 30px 30px;
-    
-  }
+.cards {
+  padding: 5px 30px 30px 30px;
+}
 
 .cardContainer {
-    margin-top: 20px;
-    text-align: center;
-  }
+  margin-top: 20px;
+  text-align: center;
+}
 
-  .card {
-    margin: 0 auto;
-    border-width: thick;
-    border-color: var(--font);
-  }
-  
-  .card-body {
-    background-color: var(--background-color);
-    
-  }
+.card {
+  margin: 0 auto;
+  border-width: thick;
+  border-color: var(--font);
+}
 
-  .card-title {
-    color: var(--font);
-    font-weight: bolder;
-    font-size: x-large;
-  }
+.card img {
+  height: 40rem;
+  object-fit: cover;
+  object-position: center;
+}
 
-  .myButtons {
-    color: var(--font);
-    border-color: var(--font);
-  }
+.card-body {
+  background-color: var(--background-color);
+}
 
-  /* Skills Section */
+.card-title {
+  color: var(--font);
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.myButtons {
+  color: var(--font);
+  border-color: var(--font);
+}
+
+/* Skills Section */
 
 .skills-section {
   padding: 100px 0;
-  background: linear-gradient(rgba(179, 96, 96, 0.1) 0%, rgba(223, 80, 228, 0.5) 75%, #9c4343 100%), url("../images/ori_3735717_vigip4fpkjypq5lypufdqlif1gdvibuljhim30bu_watercolor-coral-peonies.PNG");
+  background: linear-gradient(
+      rgba(179, 96, 96, 0.1) 0%,
+      rgba(223, 80, 228, 0.5) 75%,
+      #9c4343 100%
+    ),
+    url("../images/ori_3735717_vigip4fpkjypq5lypufdqlif1gdvibuljhim30bu_watercolor-coral-peonies.PNG");
   background-position: center;
- 
 }
 
 .text-black {
@@ -136,22 +142,27 @@ a:hover {
 
 .text-center li {
   font-size: large;
-  
 }
 
 .buttonMove {
   margin-left: 100px;
   width: 250px;
-  align-content: center;margin-top: 5px;
+  align-content: center;
+  margin-top: 5px;
 }
 
 .btn {
   color: var(--font);
   font-weight: bolder;
   background-color: rgb(248, 42, 111);
-  
+  height: 3rem;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
 .modal-header h3 {
   font-size: xx-large;
@@ -161,36 +172,30 @@ a:hover {
 
 .modal-body {
   color: var(--background-color);
-
 }
-  
 
-  /* Contact */
+/* Contact */
 
-  .contact-section .card {
-    border: 0;
-    border-bottom: 0.50rem solid var(--font);
-    border-top: 0.50rem solid var(--font);
-    margin-top: 10px;
-    
-  }
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.5rem solid var(--font);
+  border-top: 0.5rem solid var(--font);
+  margin-top: 100px;
+}
 
-  .medium {
-    color: var(--font);
-    font-weight: bold;
-  }
+.medium {
+  color: var(--font);
+  font-weight: bold;
+}
 
-  .medium a{
-    color: var(--font);
-  }
-
- 
+.medium a {
+  color: var(--font);
+}
 
 footer {
-    background-color: #222222;
-    padding: 25px 0;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-    margin-top: 30px;
+  background-color: #222222;
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
 }
- 
